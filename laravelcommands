@@ -1,0 +1,35 @@
+Commands 
+
+
+1) To run application
+
+ 	php artisan serve
+
+2) To migrate database  
+	 
+	 php artisan migrate
+
+3) To create databse migrate  class 
+
+	php artisan make:migration create_users_table --create=users
+
+4) To drop all tables and migrate database
+	
+	 php artisan migrate:fresh
+
+5) clear cache
+
+	php artisan cache:clear
+
+6)Clear route cache
+	
+	php artisan route:clear
+
+7) Clear Configuration Cache
+
+	php artisan config:clear
+
+8) Clear Compiled Views Cache
+
+	php artisan view:clear
+
